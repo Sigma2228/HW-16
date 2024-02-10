@@ -94,7 +94,7 @@ color: dodgerblue;
 .text1::before {
     content: '';
     display: block;
-    background-image: url("../photos/astronaut\ 1.png");
+    background-image: url('../photos/astronaut 1.png');
     height: 100px;
     width: 100%;
 }
