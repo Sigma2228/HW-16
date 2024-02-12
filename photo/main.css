@@ -91,12 +91,50 @@ color: dodgerblue;
     line-height: 1.7;
     padding-bottom: 10px;
 }
-.text1::before {
+.text1:first-child::before {
     content: '';
     display: block;
-    background-image: url('../photos/astronaut 1.png');
+    background-image: url("../photo/antenna\ 1.png");
+    background-repeat: no-repeat;
     height: 100px;
     width: 100%;
+    background-position: 50% 50%;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+}
+.text1:nth-child(2)::before {
+    content: '';
+    display: block;
+    background-image: url("../photo/clock\ 1.png");
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100%;
+    background-position: 50% 50%;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+}
+.text1:nth-child(3)::before {
+    content: '';
+    display: block;
+    background-image: url("../photo/diagram\ 1\ \(1\).png");
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100%;
+    background-position: 50% 50%;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+
+}
+.text1:last-child::before {
+    content: '';
+    display: block;
+    background-image: url("../photo/astronaut\ 1.png");
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100%;
+    background-position: 50% 50%;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
 }
 .text1 h1 {
     font-size: 14px;
